@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function List(props) {
+function List(props) {
   const { tasks } = props;
 
   return (
@@ -15,3 +15,4 @@ export default function List(props) {
     </div>
   );
 }
+export default List;
