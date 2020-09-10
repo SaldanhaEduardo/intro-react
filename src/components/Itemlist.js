@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function Itemlist(props) {
+  const { onSave } = props;
   const [text, setText] = useState("");
 
   return (
